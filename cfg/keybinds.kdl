@@ -26,7 +26,7 @@ binds {
 
     // set your own file manager.
     
-    Mod+X hotkey-overlay-title="File Manager: strata" { spawn "strata"; }
+    Mod+X hotkey-overlay-title="File Manager: nautilus" { spawn-sh "nautilus --new-window"; }
 
 
 
