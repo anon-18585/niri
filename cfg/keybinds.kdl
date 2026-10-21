@@ -25,12 +25,8 @@ binds {
     Mod+E hotkey-overlay-title="Open Text Editor: Zed" { spawn "zeditor"; }
 
     // set your own file manager.
-    Mod+X hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "nautilus --new-window $HOME"; }
-
-    Mod+Shift+X hotkey-overlay-title="File Manager: yazi " { spawn "yazi"; }
-
-    Mod+Alt+X hotkey-overlay-title="File Manager: spf " { spawn "spf"; }
-
+    
+    Mod+X hotkey-overlay-title="File Manager: strata" { spawn "strata"; }
 
 
 
